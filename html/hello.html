@@ -6,16 +6,28 @@
     <style>
       body {
         font-family: "Helvetica","Arial";
+        font-size: 400%;
         font-weight: bold;
         background: #073642;
         color: grey;
       }
 
+      #h { color: goldenrod;  }
+      #w { color: magenta; }
+
       .couplet {
         font-family: ; 
         margin: 0;
         margin-left: 2em;
+        font-weight: normal;
+        font-size: normal;
       }
+
+      #output {
+        font-size: normal;
+        font-weight: normal;
+      }
+
     </style>
   </head>
 
@@ -27,7 +39,7 @@
    </p>
 
    <p class="couplet">
-     Roses are red,
+     Roses are red, 
      Violets are blue.
    </p>
 
@@ -35,9 +47,14 @@
      Jaws 19 is coming,
      So come die soon.
     </p>
+    
+    <p id="output">
+      <script>
+        console.log("Hello there console");
+        console.write(document.LastModified);
+      </script>
+    </p>
 
-    <script>
-    </script>
   </body>
 
 </html>
