@@ -31,6 +31,7 @@ def hello(kind='plain'):
         else:
             plain()        
     except KeyboardInterrupt:
+        print()
         print("
    
      .----------------.  .----------------.  .----------------.
