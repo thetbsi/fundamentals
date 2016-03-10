@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Print("HI")
+	fmt.Print(c.G + "HI" + c.X)
 
 
